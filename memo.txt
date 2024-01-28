@@ -1,0 +1,14 @@
+rocky linux 8.9
+-java open jdk21
+  yum isntalljava-21-openjdk.x86_64             1:21.0.2.0.13-1.el8                     @appstream
+  java-21-openjdk-headless.x86_64    1:21.0.2.0.13-1.el8                     @appstream
+  javapackages-filesystem.noarch     5.3.0-2.module+el8.3.0+125+5da1ae29     @appstream
+  tzdata-java.noarch                 2023d-1.el8                             @appstream
+
+-python 
+https://www.python.org/ftp/python/3.12.1/Python-3.12.1.tgz
+
+html側 java
+  使用したフレームワーク
+html2側 python
+  使用したフレームワーク

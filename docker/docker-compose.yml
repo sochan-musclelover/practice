@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  webapp:
+    build: ./
+    ports:
+      - "8080:80"
+    privileged: true
+    volumes:
+      - ./../html:/var/www/html
+      - ./../html2:/var/www/html2

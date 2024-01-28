@@ -1,0 +1,15 @@
+FROM rockylinux/rockylinux:8.9
+ENV container docker
+# apache
+RUN dnf -y install httpd
+
+# java
+RUN yum install -y java-21-openjdk
+
+# java related pack
+
+#python related pack
+
+#python main
+
+CMD ["/usr/sbin/init"]
